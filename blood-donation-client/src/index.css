@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Navber link styling */
+
+.navmenu a.active{
+    color:red;
+}
+
+.dashboardSideBar a.active button{
+    color: white;
+    background-color: red;
+}
+
+.pagination button{
+    background-color: gray;
+    margin-right: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+}
+
+.pagination .selected{
+    background-color: red;
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
